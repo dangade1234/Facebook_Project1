@@ -12,7 +12,7 @@ public class SignUpPageHiddenPopUp {
 	private WebElement createNewAcc ; 
 	
 	@FindBy (xpath = "(//input[@type='text'])[2]")
-	private WebElement firstName ;
+	private WebElement firstName123 ;
 	
 	@FindBy (xpath = "(//input[@type='text'])[3]")
 	private WebElement surname ;
