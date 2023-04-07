@@ -25,7 +25,7 @@ public class LoginPage {
 	private WebElement createNewAcc ; 
 	
 	//Variabe initialization
-	
+	//
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		
