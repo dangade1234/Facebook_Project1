@@ -52,6 +52,8 @@ public class VerifyForgottPassordPage {
 			driver = new EdgeDriver();
 		}
 		
+		if(browserName.equals("Edge"))
+		
 		    driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(12 , TimeUnit.SECONDS);//Version of 3.141.59
 		}
