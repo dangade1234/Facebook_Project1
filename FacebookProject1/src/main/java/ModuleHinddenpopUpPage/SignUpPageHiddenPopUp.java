@@ -73,7 +73,7 @@ public class SignUpPageHiddenPopUp {
 	}
 	
 	public void sendFirstName ( ) {
-		firstName.sendKeys("Pooja");
+		firstName123.sendKeys("Pooja");
 	}
 	
 	public void sendSurName() {
