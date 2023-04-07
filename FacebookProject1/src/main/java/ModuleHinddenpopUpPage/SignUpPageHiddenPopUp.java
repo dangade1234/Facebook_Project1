@@ -15,7 +15,7 @@ public class SignUpPageHiddenPopUp {
 	private WebElement firstName123 ;
 	
 	@FindBy (xpath = "(//input[@type='text'])[3]")
-	private WebElement surname ;
+	private WebElement surnamedangade ;
 	
 	@FindBy (xpath = "(//input[@type='text'])[4]")
 	private WebElement mobileNoOrEmail ;
