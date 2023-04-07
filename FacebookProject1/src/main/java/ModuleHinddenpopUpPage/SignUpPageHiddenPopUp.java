@@ -23,6 +23,10 @@ public class SignUpPageHiddenPopUp {
 	@FindBy (xpath = "(//input[@type='password'])[2]")
 	private WebElement newPassWord ;
 	
+	@FindBy (xpath = "(//input[@type='password'])[2]")
+	private WebElement newPassWord1 ;
+	
+	
 	@FindBy (xpath = "//div[text()='Date of birth']")
 	private WebElement textBirthDate ;                //getText
 	

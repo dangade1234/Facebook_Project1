@@ -41,9 +41,9 @@ public class LoginPage {
 		
 	}
 	
-//	public void sendpassWord() {
-//		passWord.sendKeys("9977665511");
-//	}
+	public void sendpassWord() {
+		passWord.sendKeys("9977665511");
+	}
 	
 	public void clickloginButton() {
 		loginButton.click();
